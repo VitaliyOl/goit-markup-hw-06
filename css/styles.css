@@ -301,6 +301,7 @@ textarea {
 }
 
 .form-comment {
+  height: 120px;
   padding: 12px 16px;
   cursor: pointer;
 
@@ -418,7 +419,7 @@ textarea {
   width: 30px;
   height: 30px;
 
-  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   outline-style: none;
   border-radius: 50%;
@@ -426,6 +427,10 @@ textarea {
   cursor: pointer;
 
   background-color: #ffffff;
+}
+
+.icon-modal {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-modal:hover .icon-modal,
